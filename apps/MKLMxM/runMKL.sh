@@ -1,0 +1,15 @@
+./mkl_test 1 64
+./mkl_test 2 96
+./mkl_test 3 128
+./mkl_test 4 160
+./mkl_test 5 192
+./mkl_test 6 224
+./mkl_test 7 256
+./mkl_test 8 288
+./mkl_test 9 320
+./mkl_test 10 352
+./mkl_test 11 384
+./mkl_test 12 416
+./mkl_test 13 448
+./mkl_test 14 480
+./mkl_test 15 512

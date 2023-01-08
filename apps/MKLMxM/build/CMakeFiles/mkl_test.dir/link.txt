@@ -1,0 +1,1 @@
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++   -std=c++11  -Wall -fopenmp -liomp5  -rdynamic CMakeFiles/mkl_test.dir/mkl_test.cpp.o  -o mkl_test -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core 

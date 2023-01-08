@@ -1,0 +1,5 @@
+source /software/apps/intel_mkl/2019.5.281/parallel_studio_xe_2019/psxevars.sh
+
+g++ -L/software/apps/intel_mkl/2019.5.281/mkl/lib/intel64 -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -liomp5 -lpthread -lm -ldl mkl_test.cpp -o test  -I/software/apps/intel_mkl/2019.5.281/mkl/include
+
+export KMP_AFFINITY=verbose,type=compact

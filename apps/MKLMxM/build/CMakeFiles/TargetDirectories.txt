@@ -1,0 +1,3 @@
+/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/edit_cache.dir
+/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/rebuild_cache.dir
+/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/mkl_test.dir

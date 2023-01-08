@@ -1,0 +1,704 @@
+The system is: Linux - 3.10.0-957.10.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/3.13.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/3.13.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_66dec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_66dec.dir/build.make CMakeFiles/cmTC_66dec.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66dec.dir/testCCompiler.c.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc    -o CMakeFiles/cmTC_66dec.dir/testCCompiler.c.o   -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_66dec
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66dec.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc      -rdynamic CMakeFiles/cmTC_66dec.dir/testCCompiler.c.o  -o cmTC_66dec 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_da949/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_da949.dir/build.make CMakeFiles/cmTC_da949.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da949.dir/CMakeCCompilerABI.c.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc    -o CMakeFiles/cmTC_da949.dir/CMakeCCompilerABI.c.o   -c /soft/buildtools/cmake-3.13.3/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_da949
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da949.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc     -v -rdynamic CMakeFiles/cmTC_da949.dir/CMakeCCompilerABI.c.o  -o cmTC_da949 
+Reading specs from /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/specs
+COLLECT_GCC=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc
+COLLECT_LTO_WRAPPER=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /soft/packaging/spack/var/spack/stage/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/gcc-8.2.0/configure --prefix=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn --disable-multilib --enable-languages=c,c++,fortran --with-mpfr=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/mpfr-4.0.1-rs6r66qwf2ziopfgdgjolc6mcsxhwnbh --with-gmp=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gmp-6.1.2-fm5gzhtwtwdocpp42mw2xn6ika3nae4r --enable-lto --with-quad --with-system-zlib --with-mpc=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/mpc-1.1.0-zofemrhxpfyhwkxuffxc6lg5xxy7zhbn --with-isl=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/isl-0.19-i7hpl7os5lwdbk5p6a4i6s662x7txjvx
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/
+LIBRARY_PATH=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/:/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_da949' '-mtune=generic' '-march=x86-64'
+ /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVmQnZy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -rpath /soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib:/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_da949 /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib -L/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_da949.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_da949' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_da949/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_da949.dir/build.make CMakeFiles/cmTC_da949.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_da949.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc    -o CMakeFiles/cmTC_da949.dir/CMakeCCompilerABI.c.o   -c /soft/buildtools/cmake-3.13.3/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_da949]
+  ignore line: [/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da949.dir/link.txt --verbose=1]
+  ignore line: [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc     -v -rdynamic CMakeFiles/cmTC_da949.dir/CMakeCCompilerABI.c.o  -o cmTC_da949 ]
+  ignore line: [Reading specs from /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/specs]
+  ignore line: [COLLECT_GCC=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /soft/packaging/spack/var/spack/stage/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/gcc-8.2.0/configure --prefix=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn --disable-multilib --enable-languages=c,c++,fortran --with-mpfr=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/mpfr-4.0.1-rs6r66qwf2ziopfgdgjolc6mcsxhwnbh --with-gmp=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gmp-6.1.2-fm5gzhtwtwdocpp42mw2xn6ika3nae4r --enable-lto --with-quad --with-system-zlib --with-mpc=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/mpc-1.1.0-zofemrhxpfyhwkxuffxc6lg5xxy7zhbn --with-isl=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/isl-0.19-i7hpl7os5lwdbk5p6a4i6s662x7txjvx]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/:/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_da949' '-mtune=generic' '-march=x86-64']
+  link line: [ /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVmQnZy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -rpath /soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib:/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_da949 /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib -L/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_da949.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVmQnZy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib:/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib64] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_da949] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> ignore
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin] ==> dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64]
+    arg [-L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64] ==> dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64]
+    arg [-L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib] ==> dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib]
+    arg [-L/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64] ==> dir [/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
+    arg [CMakeFiles/cmTC_da949.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib/gcc]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin] ==> [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64]
+  collapse library dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64] ==> [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64]
+  collapse library dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib] ==> [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib]
+  collapse library dir [/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64] ==> [/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib/gcc/x86_64-pc-linux-gnu/8.2.0;/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib/gcc;/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64;/lib64;/usr/lib64;/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin;/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64;/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib;/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64;/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3ef0e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3ef0e.dir/build.make CMakeFiles/cmTC_3ef0e.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ef0e.dir/feature_tests.c.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc   -std=c11 -o CMakeFiles/cmTC_3ef0e.dir/feature_tests.c.o   -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3ef0e
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ef0e.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc      -rdynamic CMakeFiles/cmTC_3ef0e.dir/feature_tests.c.o  -o cmTC_3ef0e 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_865d3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_865d3.dir/build.make CMakeFiles/cmTC_865d3.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_865d3.dir/feature_tests.c.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc   -std=c99 -o CMakeFiles/cmTC_865d3.dir/feature_tests.c.o   -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_865d3
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_865d3.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc      -rdynamic CMakeFiles/cmTC_865d3.dir/feature_tests.c.o  -o cmTC_865d3 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a7a5e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a7a5e.dir/build.make CMakeFiles/cmTC_a7a5e.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7a5e.dir/feature_tests.c.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc   -std=c90 -o CMakeFiles/cmTC_a7a5e.dir/feature_tests.c.o   -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a7a5e
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7a5e.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/gcc      -rdynamic CMakeFiles/cmTC_a7a5e.dir/feature_tests.c.o  -o cmTC_a7a5e 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5a876/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5a876.dir/build.make CMakeFiles/cmTC_5a876.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a876.dir/testCXXCompiler.cxx.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++     -o CMakeFiles/cmTC_5a876.dir/testCXXCompiler.cxx.o -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5a876
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a876.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++       -rdynamic CMakeFiles/cmTC_5a876.dir/testCXXCompiler.cxx.o  -o cmTC_5a876 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9bb69/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9bb69.dir/build.make CMakeFiles/cmTC_9bb69.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9bb69.dir/CMakeCXXCompilerABI.cpp.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++     -o CMakeFiles/cmTC_9bb69.dir/CMakeCXXCompilerABI.cpp.o -c /soft/buildtools/cmake-3.13.3/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_9bb69
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bb69.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++      -v -rdynamic CMakeFiles/cmTC_9bb69.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9bb69 
+Reading specs from /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/specs
+COLLECT_GCC=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++
+COLLECT_LTO_WRAPPER=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /soft/packaging/spack/var/spack/stage/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/gcc-8.2.0/configure --prefix=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn --disable-multilib --enable-languages=c,c++,fortran --with-mpfr=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/mpfr-4.0.1-rs6r66qwf2ziopfgdgjolc6mcsxhwnbh --with-gmp=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gmp-6.1.2-fm5gzhtwtwdocpp42mw2xn6ika3nae4r --enable-lto --with-quad --with-system-zlib --with-mpc=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/mpc-1.1.0-zofemrhxpfyhwkxuffxc6lg5xxy7zhbn --with-isl=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/isl-0.19-i7hpl7os5lwdbk5p6a4i6s662x7txjvx
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/
+LIBRARY_PATH=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/:/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9bb69' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIPwP7U.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -rpath /soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib:/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9bb69 /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib -L/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_9bb69.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9bb69' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_9bb69/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_9bb69.dir/build.make CMakeFiles/cmTC_9bb69.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9bb69.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++     -o CMakeFiles/cmTC_9bb69.dir/CMakeCXXCompilerABI.cpp.o -c /soft/buildtools/cmake-3.13.3/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_9bb69]
+  ignore line: [/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bb69.dir/link.txt --verbose=1]
+  ignore line: [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++      -v -rdynamic CMakeFiles/cmTC_9bb69.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9bb69 ]
+  ignore line: [Reading specs from /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/specs]
+  ignore line: [COLLECT_GCC=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /soft/packaging/spack/var/spack/stage/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/gcc-8.2.0/configure --prefix=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn --disable-multilib --enable-languages=c,c++,fortran --with-mpfr=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/mpfr-4.0.1-rs6r66qwf2ziopfgdgjolc6mcsxhwnbh --with-gmp=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gmp-6.1.2-fm5gzhtwtwdocpp42mw2xn6ika3nae4r --enable-lto --with-quad --with-system-zlib --with-mpc=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/mpc-1.1.0-zofemrhxpfyhwkxuffxc6lg5xxy7zhbn --with-isl=/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/isl-0.19-i7hpl7os5lwdbk5p6a4i6s662x7txjvx]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64/:/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/:/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64/:/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9bb69' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIPwP7U.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -rpath /soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib:/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib64 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9bb69 /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64 -L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib -L/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64 -L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_9bb69.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIPwP7U.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib:/soft/packaging/spack/builds/linux-rhel7-x86_64/gcc-4.9.4/gcc-8.2.0-oaj76hylixry3xrma556tz63z6wh2iqn/lib64] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9bb69] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> ignore
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin] ==> dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64]
+    arg [-L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64] ==> dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64]
+    arg [-L/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib] ==> dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib]
+    arg [-L/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64] ==> dir [/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64]
+    arg [-L/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
+    arg [CMakeFiles/cmTC_9bb69.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib/gcc]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64/../lib64] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin] ==> [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64]
+  collapse library dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64] ==> [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64]
+  collapse library dir [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib] ==> [/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib]
+  collapse library dir [/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64] ==> [/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64]
+  collapse library dir [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/../lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib/gcc/x86_64-pc-linux-gnu/8.2.0;/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib/gcc;/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib64;/lib64;/usr/lib64;/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/compiler/lib/intel64_lin;/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib/x64;/soft/restricted/CNDA/sdk/2019.12.15.018/compiler/latest/linux/lib;/soft/restricted/CNDA/sdk/2019.12.15.018/mkl/latest/lib/intel64;/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_135c4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_135c4.dir/build.make CMakeFiles/cmTC_135c4.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_135c4.dir/feature_tests.cxx.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++    -std=c++2a -o CMakeFiles/cmTC_135c4.dir/feature_tests.cxx.o -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_135c4
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_135c4.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++       -rdynamic CMakeFiles/cmTC_135c4.dir/feature_tests.cxx.o  -o cmTC_135c4 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6a9fb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6a9fb.dir/build.make CMakeFiles/cmTC_6a9fb.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6a9fb.dir/feature_tests.cxx.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++    -std=c++17 -o CMakeFiles/cmTC_6a9fb.dir/feature_tests.cxx.o -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6a9fb
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a9fb.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++       -rdynamic CMakeFiles/cmTC_6a9fb.dir/feature_tests.cxx.o  -o cmTC_6a9fb 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_409e4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_409e4.dir/build.make CMakeFiles/cmTC_409e4.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_409e4.dir/feature_tests.cxx.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++    -std=c++14 -o CMakeFiles/cmTC_409e4.dir/feature_tests.cxx.o -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_409e4
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_409e4.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++       -rdynamic CMakeFiles/cmTC_409e4.dir/feature_tests.cxx.o  -o cmTC_409e4 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d810d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d810d.dir/build.make CMakeFiles/cmTC_d810d.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d810d.dir/feature_tests.cxx.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++    -std=c++11 -o CMakeFiles/cmTC_d810d.dir/feature_tests.cxx.o -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d810d
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d810d.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++       -rdynamic CMakeFiles/cmTC_d810d.dir/feature_tests.cxx.o  -o cmTC_d810d 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_85ae5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_85ae5.dir/build.make CMakeFiles/cmTC_85ae5.dir/build
+gmake[1]: Entering directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_85ae5.dir/feature_tests.cxx.o
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++    -std=c++98 -o CMakeFiles/cmTC_85ae5.dir/feature_tests.cxx.o -c /home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_85ae5
+/soft/buildtools/cmake-3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85ae5.dir/link.txt --verbose=1
+/soft/compilers/gcc/8.2.0/linux-rhel7-x86_64/bin/g++       -rdynamic CMakeFiles/cmTC_85ae5.dir/feature_tests.cxx.o  -o cmTC_85ae5 
+gmake[1]: Leaving directory `/home/sraskar/cannons/apps/MKLMxM/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
