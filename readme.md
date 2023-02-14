@@ -68,5 +68,5 @@ By default cmake compiles in release mode ie. compiles with -O3
 * The source code for Cannons Algorithm with dataflow Software Pipelining is Present in the directory `apps/Cannon-dfswp`
 * After `make` command, code is built in the directory `build/apps/Cannon-dfswp`
 * * The code needs to be executed with the required command line arguments. 
-`$ ./Cannon_dfswp numSU numCU Matsize sqrtNumTiles SqrtNumElementPerTile`. The meaning of these command line arguments is the same as the one mentioned above. 
+`$ ./cannon_dfswp numSU numCU Matsize sqrtNumTiles SqrtNumElementPerTile`. The meaning of these command line arguments is the same as the one mentioned above. 
 * `mmCannonTime.sh` script contains some configurations. 
