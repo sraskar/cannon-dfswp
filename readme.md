@@ -23,9 +23,10 @@ Please follow the instructions on the respective dependency website to install t
   $ mkdir build 
   $ cd build 
   ```
-* Use `cmake` to configure the repository.
+
+* Use `cmake` to configure the repository. Please make sure to add relevant paths for MKL and HWLOC in the camke command using `-DMKL_ROOT_DIR=/path/to/mkl_root` and `-DHWLOC_ROOT=/path/to/hwloc_root` flags. 
   ```bash
-  $ CC=gcc CXX=g++ cmake -DCBLAS=OFF -DMKL=ON -DMKL_ROOT_DIR=/path/to/mkl_root -DHWLOC_ROOT=/path/to/hwloc_root
+  $ CC=gcc CXX=g++ cmake -DCBLAS=OFF -DMKL=ON -DMKL_ROOT_DIR=/path/to/mkl_root -DHWLOC_ROOT=/path/to/hwloc_root ../
   ```
 
 * Use `make` to compile code. 
